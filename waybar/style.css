@@ -1,0 +1,103 @@
+@import "colors.css";
+
+* {
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 14px;
+  min-height: 0;
+}
+
+#waybar {
+  background: transparent;
+  color: @text;
+  margin: 2px 2px;
+}
+
+#workspaces {
+  border-radius: 5px;
+  margin: 5px;
+  margin-left: 5px;
+  padding: 0px 5px 0px 5px;
+  background-color: @surface0;
+}
+
+#workspaces button {
+  color: @lavender;
+  border-radius: 5px;
+  padding: 0.4rem;
+}
+
+#workspaces button.active {
+  color: @sky;
+  border-radius: 5px;
+}
+
+#workspaces button:hover {
+  color: @sapphire;
+  border-radius: 5px;
+}
+
+#window,
+#tray,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#custom-lock,
+#custom-power {
+  background-color: @surface0;
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
+}
+
+#clock {
+  color: @blue;
+  border-radius: 0px 5px 5px 0px;
+  margin-right: 5px;
+}
+
+#battery {
+  color: @green;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @red;
+}
+
+#backlight {
+  color: @yellow;
+}
+
+#backlight,
+#battery {
+  border-radius: 0;
+}
+
+#pulseaudio {
+  color: @maroon;
+  border-radius: 5px 0px 0px 5px;
+  margin-left: 5px;
+}
+
+#window {
+  color: @mauve;
+  border-radius: 5px;
+}
+
+#custom-lock {
+  border-radius: 5px 0px 0px 5px;
+  color: @lavender;
+}
+
+#custom-power {
+  margin-right: 5px;
+  border-radius: 0px 5px 5px 0px;
+  color: @red;
+}
+
+#tray {
+  border-radius: 5px;
+}

@@ -1,0 +1,10 @@
+name = "themeHypr"
+author = "dotfm"
+
+[files]
+rofi = "/home/guillaume/.config/rofi"
+wezterm = "/home/guillaume/.config/wezterm"
+Thunar = "/home/guillaume/.config/Thunar"
+hypr = "/home/guillaume/.config/hypr"
+waybar = "/home/guillaume/.config/waybar"
+dunst = "/home/guillaume/.config/dunst"
