@@ -3,8 +3,9 @@ author = "dotfm"
 
 [files]
 rofi = "/home/guillaume/.config/rofi"
-wezterm = "/home/guillaume/.config/wezterm"
-Thunar = "/home/guillaume/.config/Thunar"
-hypr = "/home/guillaume/.config/hypr"
 waybar = "/home/guillaume/.config/waybar"
+wezterm = "/home/guillaume/.config/wezterm"
+".zshrc" = "/home/guillaume/.zshrc"
+Thunar = "/home/guillaume/.config/Thunar"
 dunst = "/home/guillaume/.config/dunst"
+hypr = "/home/guillaume/.config/hypr"
