@@ -1,0 +1,16 @@
+name = "themeHypr"
+author = "dotfm"
+
+[files]
+rofi = "/home/guillaume/.config/rofi"
+waybar = "/home/guillaume/.config/waybar"
+wezterm = "/home/guillaume/.config/wezterm"
+".zshrc" = "/home/guillaume/.zshrc"
+Thunar = "/home/guillaume/.config/Thunar"
+dunst = "/home/guillaume/.config/dunst"
+hypr = "/home/guillaume/.config/hypr"
+
+[packages.pacman]
+install_cmd = "sudo pacman -S"
+dependencies = ["brightnessctl","cliphist","dunst","fzf","grim","hyprlock","hyprpicker","slurp","waybar","wl-clipboard","btop","firefox","neovim","paru","rofi","zsh","dunst","thunar","vesktop","catppuccin-gtk-theme-macchiato","nwg-look","ttf-jetbrains-mono-nerd","ttf-nerd-fonts-symbols"]
+optional = []
